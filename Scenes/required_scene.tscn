@@ -1,0 +1,33 @@
+[gd_scene format=3 uid="uid://ccmdnjajrtcuo"]
+
+[ext_resource type="Script" uid="uid://doclr1valavfm" path="res://MIDIKeyManager.cs" id="2_h2m7t"]
+[ext_resource type="Script" uid="uid://bfe6pujupwace" path="res://Tools/Options/Options.cs" id="3_k610c"]
+[ext_resource type="Script" uid="uid://gk4e6qkcelbk" path="res://Tools/Audio/SoundPool/MessagedSoundPool.cs" id="4_h2m7t"]
+
+[node name="RequiredScene" type="Node" unique_id=1433296223]
+
+[node name="MessagedSoundPool" type="Node" parent="." unique_id=1973374399]
+script = ExtResource("4_h2m7t")
+use2DPlayers = false
+use3DPlayers = false
+metadata/_custom_type_script = "uid://gk4e6qkcelbk"
+
+[node name="Options" type="Node" parent="." unique_id=1605074186]
+script = ExtResource("3_k610c")
+metadata/_custom_type_script = "uid://bfe6pujupwace"
+
+[node name="MIDI_Keys" type="Node" parent="." unique_id=439642188]
+script = ExtResource("2_h2m7t")
+MidiEvents = Dictionary[int, String]({
+36: "StartRun",
+37: "NextSplit",
+38: "StopRun",
+39: "PreviousSplit",
+40: "PauseResumeSplit",
+41: "ResetRun",
+42: "PauseSplit",
+43: "ResumeSplit",
+48: "OpenSplitFile",
+50: "LoadRun",
+51: "SaveRun"
+})

@@ -1,0 +1,185 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Workspace\\Godot\\GodotProjects\\SnowGameTimer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{80DBC628-B9A8-432C-9D45-82D875878D23}|SnowGameTimer.csproj|d:\\workspace\\godot\\godotprojects\\snowgametimer\\scripts\\speedrun\\splitnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80DBC628-B9A8-432C-9D45-82D875878D23}|SnowGameTimer.csproj|solutionrelative:scripts\\speedrun\\splitnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80DBC628-B9A8-432C-9D45-82D875878D23}|SnowGameTimer.csproj|d:\\workspace\\godot\\godotprojects\\snowgametimer\\scripts\\monospacetimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80DBC628-B9A8-432C-9D45-82D875878D23}|SnowGameTimer.csproj|solutionrelative:scripts\\monospacetimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80DBC628-B9A8-432C-9D45-82D875878D23}|SnowGameTimer.csproj|d:\\workspace\\godot\\godotprojects\\snowgametimer\\tools\\ui\\snowflexhbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80DBC628-B9A8-432C-9D45-82D875878D23}|SnowGameTimer.csproj|solutionrelative:tools\\ui\\snowflexhbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80DBC628-B9A8-432C-9D45-82D875878D23}|SnowGameTimer.csproj|d:\\workspace\\godot\\godotprojects\\snowgametimer\\scripts\\speedrun\\split.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80DBC628-B9A8-432C-9D45-82D875878D23}|SnowGameTimer.csproj|solutionrelative:scripts\\speedrun\\split.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80DBC628-B9A8-432C-9D45-82D875878D23}|SnowGameTimer.csproj|d:\\workspace\\godot\\godotprojects\\snowgametimer\\tools\\ui\\snowflexvbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80DBC628-B9A8-432C-9D45-82D875878D23}|SnowGameTimer.csproj|solutionrelative:tools\\ui\\snowflexvbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80DBC628-B9A8-432C-9D45-82D875878D23}|SnowGameTimer.csproj|d:\\workspace\\godot\\godotprojects\\snowgametimer\\tools\\ui\\snowflexgridbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80DBC628-B9A8-432C-9D45-82D875878D23}|SnowGameTimer.csproj|solutionrelative:tools\\ui\\snowflexgridbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80DBC628-B9A8-432C-9D45-82D875878D23}|SnowGameTimer.csproj|d:\\workspace\\godot\\godotprojects\\snowgametimer\\scripts\\speedrun\\runnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80DBC628-B9A8-432C-9D45-82D875878D23}|SnowGameTimer.csproj|solutionrelative:scripts\\speedrun\\runnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80DBC628-B9A8-432C-9D45-82D875878D23}|SnowGameTimer.csproj|d:\\workspace\\godot\\godotprojects\\snowgametimer\\midikeymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80DBC628-B9A8-432C-9D45-82D875878D23}|SnowGameTimer.csproj|solutionrelative:midikeymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MonoSpaceTimer.cs",
+              "DocumentMoniker": "D:\\Workspace\\Godot\\GodotProjects\\SnowGameTimer\\Scripts\\MonoSpaceTimer.cs",
+              "RelativeDocumentMoniker": "Scripts\\MonoSpaceTimer.cs",
+              "ToolTip": "D:\\Workspace\\Godot\\GodotProjects\\SnowGameTimer\\Scripts\\MonoSpaceTimer.cs",
+              "RelativeToolTip": "Scripts\\MonoSpaceTimer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-11T23:42:13.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SplitNode.cs",
+              "DocumentMoniker": "D:\\Workspace\\Godot\\GodotProjects\\SnowGameTimer\\Scripts\\Speedrun\\SplitNode.cs",
+              "RelativeDocumentMoniker": "Scripts\\Speedrun\\SplitNode.cs",
+              "ToolTip": "D:\\Workspace\\Godot\\GodotProjects\\SnowGameTimer\\Scripts\\Speedrun\\SplitNode.cs",
+              "RelativeToolTip": "Scripts\\Speedrun\\SplitNode.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-11T22:54:46.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Split.cs",
+              "DocumentMoniker": "D:\\Workspace\\Godot\\GodotProjects\\SnowGameTimer\\Scripts\\Speedrun\\Split.cs",
+              "RelativeDocumentMoniker": "Scripts\\Speedrun\\Split.cs",
+              "ToolTip": "D:\\Workspace\\Godot\\GodotProjects\\SnowGameTimer\\Scripts\\Speedrun\\Split.cs",
+              "RelativeToolTip": "Scripts\\Speedrun\\Split.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-11T22:54:45.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SnowFlexGridBox.cs",
+              "DocumentMoniker": "D:\\Workspace\\Godot\\GodotProjects\\SnowGameTimer\\Tools\\UI\\SnowFlexGridBox.cs",
+              "RelativeDocumentMoniker": "Tools\\UI\\SnowFlexGridBox.cs",
+              "ToolTip": "D:\\Workspace\\Godot\\GodotProjects\\SnowGameTimer\\Tools\\UI\\SnowFlexGridBox.cs",
+              "RelativeToolTip": "Tools\\UI\\SnowFlexGridBox.cs",
+              "ViewState": "AgIAAH8AAAAAAAAAAAAwwJsAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-11T18:16:06.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SnowFlexHBox.cs",
+              "DocumentMoniker": "D:\\Workspace\\Godot\\GodotProjects\\SnowGameTimer\\Tools\\UI\\SnowFlexHBox.cs",
+              "RelativeDocumentMoniker": "Tools\\UI\\SnowFlexHBox.cs",
+              "ToolTip": "D:\\Workspace\\Godot\\GodotProjects\\SnowGameTimer\\Tools\\UI\\SnowFlexHBox.cs",
+              "RelativeToolTip": "Tools\\UI\\SnowFlexHBox.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAvwCMAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-11T18:15:49.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SnowFlexVBox.cs",
+              "DocumentMoniker": "D:\\Workspace\\Godot\\GodotProjects\\SnowGameTimer\\Tools\\UI\\SnowFlexVBox.cs",
+              "RelativeDocumentMoniker": "Tools\\UI\\SnowFlexVBox.cs",
+              "ToolTip": "D:\\Workspace\\Godot\\GodotProjects\\SnowGameTimer\\Tools\\UI\\SnowFlexVBox.cs",
+              "RelativeToolTip": "Tools\\UI\\SnowFlexVBox.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-11T18:14:13.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RunNode.cs",
+              "DocumentMoniker": "D:\\Workspace\\Godot\\GodotProjects\\SnowGameTimer\\Scripts\\Speedrun\\RunNode.cs",
+              "RelativeDocumentMoniker": "Scripts\\Speedrun\\RunNode.cs",
+              "ToolTip": "D:\\Workspace\\Godot\\GodotProjects\\SnowGameTimer\\Scripts\\Speedrun\\RunNode.cs",
+              "RelativeToolTip": "Scripts\\Speedrun\\RunNode.cs",
+              "ViewState": "AgIAAFUBAAAAAAAAAAASwGoBAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-10T22:04:20.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MIDIKeyManager.cs",
+              "DocumentMoniker": "D:\\Workspace\\Godot\\GodotProjects\\SnowGameTimer\\MIDIKeyManager.cs",
+              "RelativeDocumentMoniker": "MIDIKeyManager.cs",
+              "ToolTip": "D:\\Workspace\\Godot\\GodotProjects\\SnowGameTimer\\MIDIKeyManager.cs",
+              "RelativeToolTip": "MIDIKeyManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-10T21:28:01.003Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1527,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+[gd_scene format=3 uid="uid://cuufadl0763fv"]
+
+[ext_resource type="Script" uid="uid://b86tkg8nxbrl1" path="res://Scripts/Speedrun/RunNode.cs" id="1_jjgbg"]
+[ext_resource type="PackedScene" uid="uid://ca6ymxuuisade" path="res://Prefabs/split_node.tscn" id="2_bo1nx"]
+[ext_resource type="PackedScene" uid="uid://cvk6ii7om05gg" path="res://Prefabs/title_label.tscn" id="3_8gbba"]
+[ext_resource type="Script" uid="uid://c8f8utue6gsun" path="res://OpenSystemFileDialog.cs" id="6_21xkr"]
+
+[node name="Main" type="Node" unique_id=1216065055]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1762340367]
+
+[node name="Panel" type="ColorRect" parent="CanvasLayer" unique_id=101098974 node_paths=PackedStringArray("totalTimeDiff", "SplitParent")]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 0.89411765)
+script = ExtResource("1_jjgbg")
+totalTimeDiff = NodePath("TotalTimeLabel")
+SplitParent = NodePath("SplitContainer")
+SplitNodePrefab = ExtResource("2_bo1nx")
+TitleLabel = ExtResource("3_8gbba")
+
+[node name="SplitContainer" type="VBoxContainer" parent="CanvasLayer/Panel" unique_id=1228592950]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_bottom = -25.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 0
+
+[node name="HSeparator" type="HSeparator" parent="CanvasLayer/Panel" unique_id=697151589]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -25.0
+offset_bottom = -25.0
+
+[node name="TotalLabel" type="Label" parent="CanvasLayer/Panel" unique_id=131712051]
+self_modulate = Color(0, 0.5019608, 1, 1)
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_top = -22.0
+size_flags_horizontal = 19
+size_flags_vertical = 17
+text = "Total"
+horizontal_alignment = 2
+vertical_alignment = 2
+resize_font_to_fit = true
+minimum_font_size = 1
+maximum_font_size = 1000
+
+[node name="TotalTimeLabel" type="Label" parent="CanvasLayer/Panel" unique_id=1921260303]
+self_modulate = Color(0, 0.5019608, 1, 1)
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -22.0
+size_flags_horizontal = 19
+size_flags_vertical = 17
+text = "00:00:00:00"
+horizontal_alignment = 2
+vertical_alignment = 2
+resize_font_to_fit = true
+minimum_font_size = 1
+
+[node name="OpenSystemFileDialog" type="Node" parent="." unique_id=873056087]
+script = ExtResource("6_21xkr")

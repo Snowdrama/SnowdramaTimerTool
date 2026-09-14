@@ -1,0 +1,18 @@
+{
+	"WindowSize": { "X": 250, "Y": 400 },
+	"Splits":[
+		{ "SplitType" : "Title", "SplitName" : "[u]Sonic Adventure[u]" },
+		{ "SplitType" : "Split", "SplitName" : "Sonic" },
+		{ "SplitType" : "Split", "SplitName" : "Big" },
+		{ "SplitType" : "Split", "SplitName" : "Tails" },
+		{ "SplitType" : "Split", "SplitName" : "Amy" },
+		{ "SplitType" : "Split", "SplitName" : "Gamma" },
+		{ "SplitType" : "Split", "SplitName" : "Knuckles" },
+		{ "SplitType" : "Split", "SplitName" : "Super Sonic" },
+		
+		{ "SplitType" : "Title", "SplitName" : "[u]Sonic Adventure 2[u]" },
+		{ "SplitType" : "Split", "SplitName" : "Hero Story" },
+		{ "SplitType" : "Split", "SplitName" : "Dark Story" },
+		{ "SplitType" : "Split", "SplitName" : "Final Story" },
+	]
+}

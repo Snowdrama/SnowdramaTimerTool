@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://cvk6ii7om05gg"]
+
+[node name="TitleLabel" type="RichTextLabel" unique_id=1118812381]
+anchors_preset = -1
+anchor_right = 1.0
+offset_bottom = 13.0
+grow_horizontal = 2
+size_flags_horizontal = 17
+size_flags_vertical = 19
+bbcode_enabled = true
+text = "[b][i]Sonic Adventure 2[/i][/b] "
+fit_content = true
+scroll_active = false
+shortcut_keys_enabled = false
+horizontal_alignment = 1
+vertical_alignment = 1
+resize_font_to_fit = true
+minimum_font_size = 1
+maximum_font_size = 1000

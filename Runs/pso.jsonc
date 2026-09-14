@@ -1,0 +1,21 @@
+{
+	"WindowSize": { "X": 300, "Y": 600 },
+	"Splits":[
+		{ "SplitType" : "Title", "SplitName" : "[u]Phantasy Star Online[u]" },
+		{ "SplitType" : "Title", "SplitName" : "Casual Longplay" },
+		{ "SplitType" : "Split", "SplitName" : "Forest 1" },
+		{ "SplitType" : "Split", "SplitName" : "Forest 2" },
+		{ "SplitType" : "Split", "SplitName" : "Dragon" },
+		{ "SplitType" : "Split", "SplitName" : "Caves 1" },
+		{ "SplitType" : "Split", "SplitName" : "Caves 2" },
+		{ "SplitType" : "Split", "SplitName" : "Caves 3" },
+		{ "SplitType" : "Split", "SplitName" : "De Rol Le" },
+		{ "SplitType" : "Split", "SplitName" : "Mines 1" },
+		{ "SplitType" : "Split", "SplitName" : "Mines 2" },
+		{ "SplitType" : "Split", "SplitName" : "Vol Opt" },
+		{ "SplitType" : "Split", "SplitName" : "Ruins 1" },
+		{ "SplitType" : "Split", "SplitName" : "Ruins 2" },
+		{ "SplitType" : "Split", "SplitName" : "Ruins 3" },
+		{ "SplitType" : "Split", "SplitName" : "Dark Falz" },
+	]
+}

@@ -1,0 +1,223 @@
+[gd_scene format=3 uid="uid://ca6ymxuuisade"]
+
+[ext_resource type="Script" uid="uid://bcuup0ek41t26" path="res://Scripts/Speedrun/SplitNode.cs" id="1_2nyoe"]
+[ext_resource type="Theme" uid="uid://4aowbw2m68uy" path="res://SnowTheme.tres" id="1_744ux"]
+[ext_resource type="Script" uid="uid://c4f5pshpm1yar" path="res://Tools/UI/SnowFlexHBox.cs" id="2_8sc1l"]
+[ext_resource type="Script" uid="uid://bvanbjxvquyd6" path="res://Scripts/MonoSpaceTimer.cs" id="4_yt0t6"]
+
+[node name="SplitNode" type="Control" unique_id=1756539152 node_paths=PackedStringArray("_nameLabel", "_timerLabel")]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 19
+size_flags_vertical = 19
+theme = ExtResource("1_744ux")
+script = ExtResource("1_2nyoe")
+_nameLabel = NodePath("SnowFlexHBox/NameLabel")
+_timerLabel = NodePath("SnowFlexHBox/MonoSpaceTimer")
+stoppedColor = Color(0.2, 0.2, 0.2, 1)
+
+[node name="SnowFlexHBox" type="Container" parent="." unique_id=2093924738 node_paths=PackedStringArray("childControls")]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("2_8sc1l")
+flexSizes = PackedFloat32Array(4, 0.2, 1.5, 0.2, 3)
+pixelsBetween = 2.0
+pixelsLeft = 2.0
+pixelsRight = 2.0
+pixelsTop = 0.0
+pixelsBottom = 0.0
+oldPixelsBetween = 2.0
+oldPixelsLeft = 2.0
+oldPixelsRight = 2.0
+oldPixelsTop = 0.0
+oldPixelsBottom = 0.0
+percentages = PackedFloat32Array(0.4494382, 0.022471912, 0.16853933, 0.022471912, 0.33707866)
+childControls = [NodePath("NameLabel"), NodePath("VSeparator"), NodePath("DiffLabel"), NodePath("VSeparator2"), NodePath("TimerLabel")]
+oldFlexSizes = PackedFloat32Array(4, 0.2, 1.5, 0.2, 3)
+metadata/_custom_type_script = "uid://c4f5pshpm1yar"
+
+[node name="NameLabel" type="Label" parent="SnowFlexHBox" unique_id=997438628]
+layout_mode = 2
+size_flags_horizontal = 19
+size_flags_vertical = 17
+text = "Return To the Faer Realm"
+horizontal_alignment = 2
+vertical_alignment = 1
+resize_font_to_fit = true
+minimum_font_size = 1
+maximum_font_size = 1000
+
+[node name="VSeparator" type="ColorRect" parent="SnowFlexHBox" unique_id=750763225]
+layout_mode = 2
+size_flags_horizontal = 17
+size_flags_vertical = 17
+color = Color(0, 0.23500566, 0.36328125, 1)
+
+[node name="DiffLabel" type="Label" parent="SnowFlexHBox" unique_id=1670336260]
+self_modulate = Color(0.19921875, 0.19921875, 0.19921875, 1)
+layout_mode = 2
+size_flags_horizontal = 17
+size_flags_vertical = 17
+text = "+1m 2s"
+horizontal_alignment = 2
+vertical_alignment = 1
+resize_font_to_fit = true
+minimum_font_size = 1
+maximum_font_size = 1000
+
+[node name="VSeparator2" type="ColorRect" parent="SnowFlexHBox" unique_id=561912160]
+layout_mode = 2
+size_flags_horizontal = 17
+size_flags_vertical = 17
+color = Color(0, 0.23500566, 0.36328125, 1)
+
+[node name="MonoSpaceTimer" type="Node" parent="SnowFlexHBox" unique_id=1414559280 node_paths=PackedStringArray("labels")]
+script = ExtResource("4_yt0t6")
+labels = [NodePath("../TimerLabel/Label1"), NodePath("../TimerLabel/Label2"), NodePath("../TimerLabel/Sep1"), NodePath("../TimerLabel/Label3"), NodePath("../TimerLabel/Label4"), NodePath("../TimerLabel/Sep2"), NodePath("../TimerLabel/Label5"), NodePath("../TimerLabel/Label6"), NodePath("../TimerLabel/Sep3"), NodePath("../TimerLabel/Label7"), NodePath("../TimerLabel/Label8"), NodePath("../TimerLabel/Label9")]
+
+[node name="TimerLabel" type="Container" parent="SnowFlexHBox" unique_id=1630561183 node_paths=PackedStringArray("childControls")]
+layout_mode = 2
+script = ExtResource("2_8sc1l")
+flexSizes = PackedFloat32Array(1, 1, 0.4, 1, 1, 0.4, 1, 1, 0.4, 1, 1, 1)
+pixelsBetween = 0.0
+pixelsLeft = 0.0
+pixelsRight = 0.0
+pixelsTop = 0.0
+pixelsBottom = 0.0
+oldPixelsBetween = 0.0
+oldPixelsLeft = 0.0
+oldPixelsRight = 0.0
+oldPixelsTop = 0.0
+oldPixelsBottom = 0.0
+percentages = PackedFloat32Array(0.09803921, 0.09803921, 0.039215684, 0.09803921, 0.09803921, 0.039215684, 0.09803921, 0.09803921, 0.039215684, 0.09803921, 0.09803921, 0.09803921)
+childControls = [NodePath("Label1"), NodePath("Label2"), NodePath("Sep1"), NodePath("Label3"), NodePath("Label4"), NodePath("Sep2"), NodePath("Label5"), NodePath("Label6"), NodePath("Sep3"), NodePath("Label7"), NodePath("Label8"), NodePath("Label9")]
+oldFlexSizes = PackedFloat32Array(1, 1, 0.4, 1, 1, 0.4, 1, 1, 0.4, 1, 1, 1)
+metadata/_custom_type_script = "uid://c4f5pshpm1yar"
+
+[node name="Label1" type="Label" parent="SnowFlexHBox/TimerLabel" unique_id=1115008057]
+layout_mode = 2
+theme_override_font_sizes/font_size = 8
+text = "0"
+horizontal_alignment = 1
+vertical_alignment = 1
+resize_font_to_fit = true
+minimum_font_size = 1
+maximum_font_size = 1000
+
+[node name="Label2" type="Label" parent="SnowFlexHBox/TimerLabel" unique_id=2128175769]
+layout_mode = 2
+theme_override_font_sizes/font_size = 8
+text = "0"
+horizontal_alignment = 1
+vertical_alignment = 1
+resize_font_to_fit = true
+minimum_font_size = 1
+maximum_font_size = 1000
+
+[node name="Sep1" type="Label" parent="SnowFlexHBox/TimerLabel" unique_id=559841242]
+layout_mode = 2
+theme_override_font_sizes/font_size = 8
+text = ":"
+horizontal_alignment = 1
+vertical_alignment = 1
+resize_font_to_fit = true
+minimum_font_size = 1
+maximum_font_size = 1000
+
+[node name="Label3" type="Label" parent="SnowFlexHBox/TimerLabel" unique_id=1019108772]
+layout_mode = 2
+theme_override_font_sizes/font_size = 8
+text = "0"
+horizontal_alignment = 1
+vertical_alignment = 1
+resize_font_to_fit = true
+minimum_font_size = 1
+maximum_font_size = 1000
+
+[node name="Label4" type="Label" parent="SnowFlexHBox/TimerLabel" unique_id=188812445]
+layout_mode = 2
+theme_override_font_sizes/font_size = 8
+text = "0"
+horizontal_alignment = 1
+vertical_alignment = 1
+resize_font_to_fit = true
+minimum_font_size = 1
+maximum_font_size = 1000
+
+[node name="Sep2" type="Label" parent="SnowFlexHBox/TimerLabel" unique_id=1905125829]
+layout_mode = 2
+theme_override_font_sizes/font_size = 8
+text = ":"
+horizontal_alignment = 1
+vertical_alignment = 1
+resize_font_to_fit = true
+minimum_font_size = 1
+maximum_font_size = 1000
+
+[node name="Label5" type="Label" parent="SnowFlexHBox/TimerLabel" unique_id=649486172]
+layout_mode = 2
+theme_override_font_sizes/font_size = 8
+text = "0"
+horizontal_alignment = 1
+vertical_alignment = 1
+resize_font_to_fit = true
+minimum_font_size = 1
+maximum_font_size = 1000
+
+[node name="Label6" type="Label" parent="SnowFlexHBox/TimerLabel" unique_id=468440881]
+layout_mode = 2
+theme_override_font_sizes/font_size = 8
+text = "0"
+horizontal_alignment = 1
+vertical_alignment = 1
+resize_font_to_fit = true
+minimum_font_size = 1
+maximum_font_size = 1000
+
+[node name="Sep3" type="Label" parent="SnowFlexHBox/TimerLabel" unique_id=397536018]
+layout_mode = 2
+theme_override_font_sizes/font_size = 8
+text = ":"
+horizontal_alignment = 1
+vertical_alignment = 1
+resize_font_to_fit = true
+minimum_font_size = 1
+maximum_font_size = 1000
+
+[node name="Label7" type="Label" parent="SnowFlexHBox/TimerLabel" unique_id=516735417]
+layout_mode = 2
+theme_override_font_sizes/font_size = 8
+text = "0"
+horizontal_alignment = 1
+vertical_alignment = 1
+resize_font_to_fit = true
+minimum_font_size = 1
+maximum_font_size = 1000
+
+[node name="Label8" type="Label" parent="SnowFlexHBox/TimerLabel" unique_id=1968833602]
+layout_mode = 2
+theme_override_font_sizes/font_size = 8
+text = "0"
+horizontal_alignment = 1
+vertical_alignment = 1
+resize_font_to_fit = true
+minimum_font_size = 1
+maximum_font_size = 1000
+
+[node name="Label9" type="Label" parent="SnowFlexHBox/TimerLabel" unique_id=300597586]
+layout_mode = 2
+theme_override_font_sizes/font_size = 8
+text = "0"
+horizontal_alignment = 1
+vertical_alignment = 1
+resize_font_to_fit = true
+minimum_font_size = 1
+maximum_font_size = 1000

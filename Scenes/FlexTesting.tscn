@@ -1,0 +1,161 @@
+[gd_scene format=3 uid="uid://dkh0appqwi64q"]
+
+[ext_resource type="Script" uid="uid://c4f5pshpm1yar" path="res://Tools/UI/SnowFlexHBox.cs" id="1_iop0m"]
+[ext_resource type="Script" uid="uid://davlcuknj6kh7" path="res://Tools/UI/SnowFlexVBox.cs" id="2_n0bhy"]
+[ext_resource type="Script" uid="uid://c5joqo3bhkul7" path="res://Tools/UI/SnowFlexGridBox.cs" id="3_n0bhy"]
+
+[node name="Node" type="Node" unique_id=971222664]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1138191661]
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CanvasLayer" unique_id=1383718377]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="SnowFlexHBox" type="Container" parent="CanvasLayer/VBoxContainer" unique_id=519332115 node_paths=PackedStringArray("childControls")]
+layout_mode = 2
+size_flags_horizontal = 17
+size_flags_vertical = 19
+script = ExtResource("1_iop0m")
+flexSizes = PackedFloat32Array(6.945, 0.2, 2, 0.2, 2)
+pixelsBetween = 1.0
+oldPixelsBetween = 1.0
+oldPixelsLeft = 5.0
+oldPixelsRight = 5.0
+oldPixelsTop = 5.0
+oldPixelsBottom = 5.0
+percentages = PackedFloat32Array(0.61216396, 0.017628912, 0.17628911, 0.017628912, 0.17628911)
+childControls = [NodePath("Panel"), NodePath("Panel2"), NodePath("Panel4"), NodePath("Panel5"), NodePath("Panel6")]
+oldFlexSizes = PackedFloat32Array(6.945, 0.2, 2, 0.2, 2)
+metadata/_custom_type_script = "uid://c4f5pshpm1yar"
+
+[node name="Panel" type="Panel" parent="CanvasLayer/VBoxContainer/SnowFlexHBox" unique_id=1804535863]
+layout_mode = 2
+
+[node name="Panel2" type="Panel" parent="CanvasLayer/VBoxContainer/SnowFlexHBox" unique_id=479027266]
+layout_mode = 2
+
+[node name="Panel4" type="Panel" parent="CanvasLayer/VBoxContainer/SnowFlexHBox" unique_id=851785227]
+layout_mode = 2
+
+[node name="Panel5" type="Panel" parent="CanvasLayer/VBoxContainer/SnowFlexHBox" unique_id=1096852468]
+layout_mode = 2
+
+[node name="Panel6" type="Panel" parent="CanvasLayer/VBoxContainer/SnowFlexHBox" unique_id=1751238195]
+layout_mode = 2
+
+[node name="SnowFlexHBox2" type="Container" parent="CanvasLayer/VBoxContainer" unique_id=1883734076 node_paths=PackedStringArray("childControls")]
+layout_mode = 2
+size_flags_horizontal = 17
+size_flags_vertical = 19
+script = ExtResource("1_iop0m")
+flexSizes = PackedFloat32Array(6.945, 0.2, 2)
+pixelsBetween = 1.0
+oldPixelsBetween = 1.0
+oldPixelsLeft = 5.0
+oldPixelsRight = 5.0
+oldPixelsTop = 5.0
+oldPixelsBottom = 5.0
+percentages = PackedFloat32Array(0.75943136, 0.021869874, 0.21869873)
+childControls = [NodePath("Panel"), NodePath("Panel2"), NodePath("Panel4")]
+oldFlexSizes = PackedFloat32Array(6.945, 0.2, 2)
+metadata/_custom_type_script = "uid://c4f5pshpm1yar"
+
+[node name="Panel" type="Panel" parent="CanvasLayer/VBoxContainer/SnowFlexHBox2" unique_id=2071523919]
+layout_mode = 2
+
+[node name="Panel2" type="Panel" parent="CanvasLayer/VBoxContainer/SnowFlexHBox2" unique_id=2091663155]
+layout_mode = 2
+
+[node name="Panel4" type="Panel" parent="CanvasLayer/VBoxContainer/SnowFlexHBox2" unique_id=1619836278]
+layout_mode = 2
+
+[node name="SnowFlexVBox" type="Container" parent="CanvasLayer/VBoxContainer" unique_id=1761685063 node_paths=PackedStringArray("childControls")]
+layout_mode = 2
+size_flags_horizontal = 17
+size_flags_vertical = 19
+script = ExtResource("2_n0bhy")
+pixelsOutside = 5.0
+oldPixelsOutside = 5.0
+percentages = PackedFloat32Array(0.25, 0.25, 0.25, 0.25)
+childControls = [NodePath("Panel"), NodePath("Panel2"), NodePath("Panel3"), NodePath("Panel4")]
+metadata/_custom_type_script = "uid://davlcuknj6kh7"
+
+[node name="Panel" type="Panel" parent="CanvasLayer/VBoxContainer/SnowFlexVBox" unique_id=1656177349]
+layout_mode = 2
+
+[node name="Panel2" type="Panel" parent="CanvasLayer/VBoxContainer/SnowFlexVBox" unique_id=1041277551]
+layout_mode = 2
+
+[node name="Panel3" type="Panel" parent="CanvasLayer/VBoxContainer/SnowFlexVBox" unique_id=1375395992]
+layout_mode = 2
+
+[node name="Panel4" type="Panel" parent="CanvasLayer/VBoxContainer/SnowFlexVBox" unique_id=341160709]
+layout_mode = 2
+
+[node name="SnowFlexGridBox" type="Container" parent="CanvasLayer/VBoxContainer" unique_id=746845663 node_paths=PackedStringArray("childControls")]
+layout_mode = 2
+size_flags_horizontal = 17
+size_flags_vertical = 19
+script = ExtResource("3_n0bhy")
+flexSizesRows = PackedFloat32Array(3.045, 1.61, 1.785, 2.855)
+flexSizesColumns = PackedFloat32Array(1.415, 2.585, 1, 3.105)
+pixelsOutside = 5.0
+oldPixelsOutside = 5.0
+percentagesRows = PackedFloat32Array(0.32759547, 0.17321141, 0.19203873, 0.3071544)
+percentagesColumns = PackedFloat32Array(0.1745836, 0.31893894, 0.12338064, 0.38309687)
+childControls = [NodePath("Panel"), NodePath("Panel2"), NodePath("Panel3"), NodePath("Panel4"), NodePath("Panel5"), NodePath("Panel6"), NodePath("Panel7"), NodePath("Panel8"), NodePath("Panel9"), NodePath("Panel10"), NodePath("Panel11"), NodePath("Panel12"), NodePath("Panel13"), NodePath("Panel14"), NodePath("Panel15"), NodePath("Panel16")]
+oldFlexSizesRows = PackedFloat32Array(3.045, 1.61, 1.785, 2.855)
+oldFlexSizesColumns = PackedFloat32Array(1.415, 2.585, 1, 3.105)
+metadata/_custom_type_script = "uid://c5joqo3bhkul7"
+
+[node name="Panel" type="Panel" parent="CanvasLayer/VBoxContainer/SnowFlexGridBox" unique_id=2076818022]
+layout_mode = 2
+
+[node name="Panel2" type="Panel" parent="CanvasLayer/VBoxContainer/SnowFlexGridBox" unique_id=734486461]
+layout_mode = 2
+
+[node name="Panel3" type="Panel" parent="CanvasLayer/VBoxContainer/SnowFlexGridBox" unique_id=2111234336]
+layout_mode = 2
+
+[node name="Panel4" type="Panel" parent="CanvasLayer/VBoxContainer/SnowFlexGridBox" unique_id=1152824364]
+layout_mode = 2
+
+[node name="Panel5" type="Panel" parent="CanvasLayer/VBoxContainer/SnowFlexGridBox" unique_id=422422335]
+layout_mode = 2
+
+[node name="Panel6" type="Panel" parent="CanvasLayer/VBoxContainer/SnowFlexGridBox" unique_id=1878720741]
+layout_mode = 2
+
+[node name="Panel7" type="Panel" parent="CanvasLayer/VBoxContainer/SnowFlexGridBox" unique_id=135389606]
+layout_mode = 2
+
+[node name="Panel8" type="Panel" parent="CanvasLayer/VBoxContainer/SnowFlexGridBox" unique_id=677715715]
+layout_mode = 2
+
+[node name="Panel9" type="Panel" parent="CanvasLayer/VBoxContainer/SnowFlexGridBox" unique_id=613023506]
+layout_mode = 2
+
+[node name="Panel10" type="Panel" parent="CanvasLayer/VBoxContainer/SnowFlexGridBox" unique_id=2086375676]
+layout_mode = 2
+
+[node name="Panel11" type="Panel" parent="CanvasLayer/VBoxContainer/SnowFlexGridBox" unique_id=784519503]
+layout_mode = 2
+
+[node name="Panel12" type="Panel" parent="CanvasLayer/VBoxContainer/SnowFlexGridBox" unique_id=609902899]
+layout_mode = 2
+
+[node name="Panel13" type="Panel" parent="CanvasLayer/VBoxContainer/SnowFlexGridBox" unique_id=799302249]
+layout_mode = 2
+
+[node name="Panel14" type="Panel" parent="CanvasLayer/VBoxContainer/SnowFlexGridBox" unique_id=1558797204]
+layout_mode = 2
+
+[node name="Panel15" type="Panel" parent="CanvasLayer/VBoxContainer/SnowFlexGridBox" unique_id=1913469570]
+layout_mode = 2
+
+[node name="Panel16" type="Panel" parent="CanvasLayer/VBoxContainer/SnowFlexGridBox" unique_id=737174646]
+layout_mode = 2

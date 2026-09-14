@@ -1,0 +1,26 @@
+{
+	"WindowSize": { "X": 400, "Y": 1000 },
+	"Splits":[
+		{ "SplitType" : "Title", "SplitName" : "[u]Nightaster 2: Easy - Aran - Any%[/u]"},
+		{ "SplitType" : "Split", "SplitName" : "The Village" },
+		{ "SplitType" : "Split", "SplitName" : "The Faer Realm" },
+		{ "SplitType" : "Split", "SplitName" : "Fire Caves" },
+		{ "SplitType" : "Split", "SplitName" : "Glowing Caverns" },
+		{ "SplitType" : "Split", "SplitName" : "The Fortress (Boss #1)" },
+		{ "SplitType" : "Split", "SplitName" : "Back to the Faer Realm" },
+		{ "SplitType" : "Split", "SplitName" : "Faer Realm Pt. 2" },
+		{ "SplitType" : "Split", "SplitName" : "Tower Spires" },
+		{ "SplitType" : "Split", "SplitName" : "Mages Throne Room" },
+		{ "SplitType" : "Split", "SplitName" : "Inner Sanctum (Boss #2)" },
+		{ "SplitType" : "Split", "SplitName" : "Back to the Faer Realm" },
+		{ "SplitType" : "Split", "SplitName" : "Faer Realm Pt. 3" },
+		{ "SplitType" : "Split", "SplitName" : "The Gilded City" },
+		{ "SplitType" : "Split", "SplitName" : "Upper Tier" },
+		{ "SplitType" : "Split", "SplitName" : "The Forum (Boss #3)" },
+		{ "SplitType" : "Split", "SplitName" : "Back to the Faer Realm" },
+		{ "SplitType" : "Split", "SplitName" : "Faer Realm Pt. 4" },
+		{ "SplitType" : "Split", "SplitName" : "The Catacombs" },
+		{ "SplitType" : "Split", "SplitName" : "Via Mortis" },
+		{ "SplitType" : "Split", "SplitName" : "Elder Crypts (Final Boss)" }
+	]
+}

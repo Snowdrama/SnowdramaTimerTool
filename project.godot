@@ -1,0 +1,64 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="SnowGameTimer"
+run/main_scene="uid://cuufadl0763fv"
+config/features=PackedStringArray("4.8", "C#", "GL Compatibility")
+config/icon="res://icon.svg"
+
+[autoload]
+
+ImGuiRoot="*res://addons/imgui-godot/data/ImGuiRoot.tscn"
+RequiredScene="*uid://ccmdnjajrtcuo"
+
+[display]
+
+window/size/viewport_width=200
+window/size/viewport_height=400
+window/size/resizable=false
+window/size/always_on_top=true
+window/size/transparent=true
+window/size/minimize_disabled=true
+window/size/maximize_disabled=true
+window/size/enable_toggle_fullscreen_shortcut=false
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+window/per_pixel_transparency/allowed=true
+
+[dotnet]
+
+project/assembly_name="SnowGameTimer"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/imgui-godot/plugin.cfg")
+
+[gui]
+
+theme/custom="uid://4aowbw2m68uy"
+theme/custom_font="uid://bw3jrbt6ojim4"
+
+[input_devices]
+
+joypads/ignore_joypad_on_unfocused_application=true
+
+[physics]
+
+3d/physics_engine="Jolt Physics"
+
+[rendering]
+
+rendering_device/driver.windows="d3d12"
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+lights_and_shadows/multi_bounce_occlusion/enabled=true
+viewport/transparent_background=true
